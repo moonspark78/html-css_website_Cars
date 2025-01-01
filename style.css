@@ -40,3 +40,35 @@ header{
     font-weight: 500;
 }
 
+.navbar a:hover, .navbar a.active{
+    color: #1743e3;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+
+.social-media a:hover{
+    border-color: red;
+}
+
+.social-media a i{
+    color: #222;
+    font-size: 24px;
+    transform: rotate(-45deg);
+}
