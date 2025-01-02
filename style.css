@@ -81,3 +81,22 @@ header{
     align-items: center;
     padding: 50px 8% 0;
 }
+
+.home-content{
+    max-width: 630px;
+}
+
+.home-content h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 40px;
+    color: #1743e3;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
